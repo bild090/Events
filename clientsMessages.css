@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	background-image: url("images/ian-dooley-DuBNA1QMpPA-unsplash.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 100%;
+	height: 100%;
+}
+
+.state1 {
+	color: white;
+    padding-bottom: 20px;
+    font-size: 17px;
+    position: relative;
+	top:  0px;
+	left: 0px;
+    
+}
+
+.state2 {
+	text-align: center;
+	font-weight: bold;
+	color: yellow;
+    padding-bottom: 20px;
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+}
+
+.passLost {
+	margin: 20px auto;
+	width: 700px;
+	padding-top: 90px;
+	padding-bottom: 100px;
+	position: relative;
+	top: 90px;
+}
+
+.passLost-screen {
+	padding: 20px;
+	border-radius: 30px;
+	background: linear-gradient(-45deg, #ee765273, #e73c7e69, #23a5d569, #23d5ab8e);
+}

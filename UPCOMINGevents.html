@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Upcoming Events</title>
+	<link href="UPCOMINGeventsStyle.css" rel="stylesheet" type="text/css">
+	<link href="all.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="images/ASAEvent_Logo.png" type="image/png" sizes="16x16">
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo2">
+				<h1><a href=""><img src="images/ASAEvent_Logo.png" width="70" height="110"></a></h1>
+			</div>
+			
+			<div id="menu">
+				<ul>
+					<li ><a href="index.html">Homepage</a></li>
+					<li><a href="Welcome.html">Welcome</a></li>
+					<li class="current_page_item"><a href="UPCOMINGevents.html">Upcoming Events</a></li>
+					<li><a href="ContactUs.php">Contact us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+		
+		<!-- upcomeing -->
+		<div id="table">
+			 <script>
+			 	var date = new Date();
+				
+				var se = new Date(2020, 5, 10);
+				var fae = new Date(2020, 6, 23);
+				var ce = new Date(2020, 7, 28);
+				var fe = new Date(2020, 8, 7);
+
+				document.write("<table><caption>UPCOMING EVENTS</caption>");
+				document.write("<tr><th class='e'>EVENT</th><th class='d'>DATE</th><th class='des'>DESCRIPTION</th></tr>");
+
+						if(date <se){
+							document.write("<tr ><td class='event'>Sport event</td><td class='date'>"+se.getDate()+"/"+se.getMonth()+"/"+se.getUTCFullYear()+"</td><td class='left'>In this event, many important players will attend to shoot and sign with the fans, and Jose Mourinho will give a lecture on sports!He changed many and many fun games of street football</td></tr>");
+						}
+
+						if(date <fae){
+							document.write("<tr class='gray'><td class='event'>Family event</td><td class='date'>"+fae.getDate()+"/"+fae.getMonth()+"/"+fae.getUTCFullYear()+"</td><td class='left'>The event will be suitable for families of all ages. Children can enjoy the indoor amusement park. Parents can relax, have coffee and talk. Young people can attend festivals at the event.</td></tr>");
+						}
+
+						if(date <ce){
+							document.write("<tr><td class='event'>Cars event</td><td class='date'>"+ce.getDate()+"/"+ce.getMonth()+"/"+ce.getUTCFullYear()+"</td><td class='left'>If you love cars this event is perfect for you, you will enjoy the modified cars, there are also shops to sell accessories and auto parts and do not forget the fun Formula race!</td></tr>");
+						}
+						if(date <fe){
+							document.write("<tr class='gray'><td class='event'>Food event</td><td class='date'>"+fe.getDate()+"/"+fe.getMonth()+"/"+fe.getUTCFullYear()+"</td><td class='left'>Are you a food lover? So we will ensure that you enjoy in this event will attend many of the best chefs from around the world, and fun that cooking will be live as you watch! And don't forget to enjoy Nusrat steake</td></tr>");
+						}
+						
+						
+						
+						document.write("</table>");
+			 </script>
+			 
+			 </div>  
+		<!-- end #page -->
+
+	</div>
+	<!-- footer -->>
+		<div id="footer">
+			<p>
+				<marquee scrollamount="10" direction="left" behavior="scroll">
+					&copy; 2020 / IMAM / CCIS&trade;.
+				</marquee>
+			</p>
+		</div>
+		<!-- end footer -->
+</body>
+
+</html>
